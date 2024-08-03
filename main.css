@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(207, 207, 151);
+    padding-top: 18%;
+    margin-left: 35%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input {
+    padding: 5px;
+    background-color: rgb(216, 216, 178);
+}
+
+button {
+    padding: 5px;
+    background-color: rgb(82, 199, 82);
+    cursor: pointer;
+    border: none;
+    margin-bottom: 35px;
+}
+
+ul {
+    padding: 35px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+li {
+    width: 240px;
+    margin: 10px 0;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
